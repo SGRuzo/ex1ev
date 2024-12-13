@@ -11,7 +11,8 @@ Explica a continación cada apartado del examen
 Con cada apartado realiza un commit diferente
 
 ![image](diagramaflujoDamas.png)
-##Pasos: 
+
+## Pasos: 
 
 1. tabla 8x8, 12B, 12N 
 2. mostrar tablero con las piezas en posicion inicial.
@@ -24,7 +25,7 @@ Con cada apartado realiza un commit diferente
 6. gana N si B=0
 7. si pieza mueve en diagonal donde hay pieza contraria, se la come
 
-##¿Como es el tablero?
+## ¿Como es el tablero?
 ````
 public class TableroDamas {
     public static void main(String[] args) {
@@ -48,7 +49,7 @@ public class TableroDamas {
         }
 ````
 
-##3Funciones 
+## 3Funciones 
 ````
     /**
      * Verificar si un movimiento es correcto (en diagonal).
